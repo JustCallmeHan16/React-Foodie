@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply w-64 relative h-[400px] border-2 flex justify-center items-center flex-col p-5 rounded-xl gap-5 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200
+}
+
+.btn{
+  @apply text-white bg-blue-500 px-5 py-2 rounded-xl absolute bottom-3 hover:bg-blue-700 active:bg-blue-900 hover:shadow-md
+}
